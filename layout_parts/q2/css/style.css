@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.large_box{
+  width: 940px;
+  background-color: #eff3f4;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px;
+  margin: 0 auto;
+}
 
+.left_box{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.right_box{
+  float: right;
+  margin-left: 20px;
+  margin-top: 10px;
+}
 /* 回答はここに書いてね */
