@@ -2,14 +2,14 @@
 
 
 /* 回答はここに書いてね */
-table{
+.table{
   table-layout: fixed;
   width: 100%;
   text-align: center;
   border-collapse: collapse;
 }
 
-th,td{
+.table th,.table td{
   border: solid #dedede 1px;
   padding: 10px;
 }

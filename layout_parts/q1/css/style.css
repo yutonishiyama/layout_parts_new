@@ -5,6 +5,8 @@
   background-color: #eff3f4;
   width: 940px;
   margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .clearfix:after{
@@ -14,12 +16,16 @@
 }
 
 .triple_box{
-  background-color: #022336;
-  border: 20px solid #3274ae;
-  padding: 10px;
+  background-color:#3274ae ;
+  padding: 20px;
   margin-left: 20px;
   width: 230px;
   float: left;
+
+}
+
+.triple_box:first-child{
+  margin-left: 0;
 }
 
 .in_the_box{
@@ -27,5 +33,6 @@
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
+  border: 10px solid #022336;
 }
 /* 回答はここに書いてね */

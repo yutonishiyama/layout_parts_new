@@ -1,44 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.small{
-  border-radius: 3px;
-  font-size: 16px;
+.btn__parts{
   display: inline-block;
   text-align: center;
   vertical-align: middle;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.small{
+  border-radius: 3px;
+  font-size: 16px;
   margin-left: 10px;
   line-height: 26px;
   padding: 0 15px;
-  box-sizing: border-box;
-  cursor: pointer;
-
 }
 
 .middle{
   border-radius: 5px;
   font-size: 20px;
-  display: inline-block;
   margin-left: 10px;
-  text-align: center;
-  vertical-align: middle;
   line-height: 32px;
   padding: 0 20px;
-  box-sizing: border-box;
-  cursor: pointer;
 }
 
 .large{
   border-radius: 7px;
   font-size: 24px;
-  display: inline-block;
   margin-left:10px;
-  text-align: center;
-  vertical-align: middle;
   line-height: 38px;
   padding: 0 25px;
-  box-sizing: border-box;
-  cursor: pointer;
 }
 
 .common{
@@ -284,12 +275,14 @@
   cursor: pointer;
   font-size:16px;
   line-height: 26px;
+  outline: none;
+  border: none
 }
 
 .left__button:active{
   background-color: #fff;
   color:#00bcd4;
-  outline: #fff
+  outline: none;
 }
 
 .focus:focus{

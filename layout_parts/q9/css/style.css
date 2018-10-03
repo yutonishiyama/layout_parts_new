@@ -14,10 +14,6 @@ position: absolute;
 bottom: 0;
 }
 
-.transition:hover > .transition__text{
-  position: absolute;
-  bottom: 0;
-}
 
 .transition:hover >.transition__car{
   transform: scale(1.5);

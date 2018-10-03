@@ -9,18 +9,19 @@
   background-color: #ecf1f2
 }
 
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+.tile-box{
   width: 100px;
   height: 100px;
   text-align: center;
   font-size: 50px;
+  vertical-align: middle;
 }
 .one{
-position: absolute;
-top: 40px;
-left:200px;
-background-color:#ffefd3;
-z-index: 1;
+  position: absolute;
+  top: 40px;
+  left:200px;
+  background-color:#ffefd3;
+  z-index: 1;
 }
 
 .two{
