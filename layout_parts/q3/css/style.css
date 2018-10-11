@@ -14,22 +14,22 @@
   padding: 10px;
 }
 
-tr:nth-child(2n+1){
+.table tr:nth-child(2n+1){
 background-color: #ecf1f2
 }
 
-th,td:first-child {
+.table th {
 background-color: #2244aa;
 font-size: 18px;
 line-height: 26px;
 color: white;
 }
 
-tr:last-child{
+.table tr:last-child{
   border-top: dashed #000 2px;
 }
 
-td:not(.hizuke){
+.table td{
   font-size: 16px;
   line-height: 22px;
 }

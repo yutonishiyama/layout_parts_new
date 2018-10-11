@@ -70,22 +70,23 @@
   font-size: 0;
 }
 
-.inlineblock__box__two{
+.inlineblock__box__two__one,
+.inlineblock__box__two__two {
   display: inline-block;
   box-sizing: border-box;
   vertical-align: top;
 }
 
-.inlineblock__box__two:first-child{
-  width: 225px;
+.inlineblock__box__two__one{
+  width: 300px;
 }
-.inlineblock__box__two:last-child{
+.inlineblock__box__two__two{
   margin-left: -300px;
   padding-left: 350px;
-  width: 100%
+  width: 100%;
 }
 
 .q7__box__text{
-  font-size: 16px
+  font-size: 16px;
 }
 /* 回答はここに書いてね */
